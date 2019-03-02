@@ -1,177 +1,11 @@
 <!DOCTYPE html>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
 
 <body>
-  <div class="grid-container" onClick="pausePlay()" description="Click to pause/play">
-    <div style="color: darkred" class="grid-item">1</div>
-    <div style="color: darkred" class="grid-item">1</div>
-    <div style="color: yellow" class="grid-item">2</div>
-    <div style="color: yellow" class="grid-item">2</div>
-    <div style="color: lightblue" class="grid-item">3</div>
-    <div style="color: lightblue" class="grid-item">3</div>
-    <div style="color: silver" class="grid-item">4</div>
-    <div style="color: silver" class="grid-item">4</div>
-    <div style="color:cadetblue" class="grid-item">5</div>
-    <div style="color:cadetblue" class="grid-item">5</div>
-    <div style="color:darkorchid" class="grid-item">6</div>
-    <div style="color:darkorchid" class="grid-item">6</div>
-    <div style="color:darkgreen" class="grid-item">7</div>
-    <div style="color:darkgreen" class="grid-item">7</div>
-    <div style="color:coral" class="grid-item">8</div>
-    <div style="color:coral" class="grid-item">8</div>
-    <div style="color:dodgerblue" class="grid-item">9</div>
-    <div style="color:dodgerblue" class="grid-item">9</div>
-    <div style="color:turquoise" class="grid-item">10</div>
-    <div style="color:turquoise" class="grid-item">10</div>
-
-    <div style="color: darkred" class="grid-item">1</div>
-    <div style="color: darkred" class="grid-item">1</div>
-    <div style="color: yellow" class="grid-item">2</div>
-    <div style="color: yellow" class="grid-item">2</div>
-    <div style="color: lightblue" class="grid-item">3</div>
-    <div style="color: lightblue" class="grid-item">3</div>
-    <div style="color: silver" class="grid-item">4</div>
-    <div style="color: silver" class="grid-item">4</div>
-    <div style="color:cadetblue" class="grid-item">5</div>
-    <div style="color:cadetblue" class="grid-item">5</div>
-    <div style="color:darkorchid" class="grid-item">6</div>
-    <div style="color:darkorchid" class="grid-item">6</div>
-    <div style="color:darkgreen" class="grid-item">7</div>
-    <div style="color:darkgreen" class="grid-item">7</div>
-    <div style="color:coral" class="grid-item">8</div>
-    <div style="color:coral" class="grid-item">8</div>
-    <div style="color:dodgerblue" class="grid-item">9</div>
-    <div style="color:dodgerblue" class="grid-item">9</div>
-    <div style="color:turquoise" class="grid-item">10</div>
-    <div style="color:turquoise" class="grid-item">10</div>
-
-    <div style="color: darkred" class="grid-item">1</div>
-    <div style="color: darkred" class="grid-item">1</div>
-    <div style="color: yellow" class="grid-item">2</div>
-    <div style="color: yellow" class="grid-item">2</div>
-    <div style="color: lightblue" class="grid-item">3</div>
-    <div style="color: lightblue" class="grid-item">3</div>
-    <div style="color: silver" class="grid-item">4</div>
-    <div style="color: silver" class="grid-item">4</div>
-    <div style="color:cadetblue" class="grid-item">5</div>
-    <div style="color:cadetblue" class="grid-item">5</div>
-    <div style="color:darkorchid" class="grid-item">6</div>
-    <div style="color:darkorchid" class="grid-item">6</div>
-    <div style="color:darkgreen" class="grid-item">7</div>
-    <div style="color:darkgreen" class="grid-item">7</div>
-    <div style="color:coral" class="grid-item">8</div>
-    <div style="color:coral" class="grid-item">8</div>
-    <div style="color:dodgerblue" class="grid-item">9</div>
-    <div style="color:dodgerblue" class="grid-item">9</div>
-    <div style="color:turquoise" class="grid-item">10</div>
-    <div style="color:turquoise" class="grid-item">10</div>
-
-    <div style="color: darkred" class="grid-item">1</div>
-    <div style="color: darkred" class="grid-item">1</div>
-    <div style="color: yellow" class="grid-item">2</div>
-    <div style="color: yellow" class="grid-item">2</div>
-    <div style="color: lightblue" class="grid-item">3</div>
-    <div style="color: lightblue" class="grid-item">3</div>
-    <div style="color: silver" class="grid-item">4</div>
-    <div style="color: silver" class="grid-item">4</div>
-    <div style="color:cadetblue" class="grid-item">5</div>
-    <div style="color:cadetblue" class="grid-item">5</div>
-    <div style="color:darkorchid" class="grid-item">6</div>
-    <div style="color:darkorchid" class="grid-item">6</div>
-    <div style="color:darkgreen" class="grid-item">7</div>
-    <div style="color:darkgreen" class="grid-item">7</div>
-    <div style="color:coral" class="grid-item">8</div>
-    <div style="color:coral" class="grid-item">8</div>
-    <div style="color:dodgerblue" class="grid-item">9</div>
-    <div style="color:dodgerblue" class="grid-item">9</div>
-    <div style="color:turquoise" class="grid-item">10</div>
-    <div style="color:turquoise" class="grid-item">10</div>
-
-    <div style="color: darkred" class="grid-item">1</div>
-    <div style="color: darkred" class="grid-item">1</div>
-    <div style="color: yellow" class="grid-item">2</div>
-    <div style="color: yellow" class="grid-item">2</div>
-    <div style="color: lightblue" class="grid-item">3</div>
-    <div style="color: lightblue" class="grid-item">3</div>
-    <div style="color: silver" class="grid-item">4</div>
-    <div style="color: silver" class="grid-item">4</div>
-    <div style="color:cadetblue" class="grid-item">5</div>
-    <div style="color:cadetblue" class="grid-item">5</div>
-    <div style="color:darkorchid" class="grid-item">6</div>
-    <div style="color:darkorchid" class="grid-item">6</div>
-    <div style="color:darkgreen" class="grid-item">7</div>
-    <div style="color:darkgreen" class="grid-item">7</div>
-    <div style="color:coral" class="grid-item">8</div>
-    <div style="color:coral" class="grid-item">8</div>
-    <div style="color:dodgerblue" class="grid-item">9</div>
-    <div style="color:dodgerblue" class="grid-item">9</div>
-    <div style="color:turquoise" class="grid-item">10</div>
-    <div style="color:turquoise" class="grid-item">10</div>
-
-    <div style="color: darkred" class="grid-item">1</div>
-    <div style="color: darkred" class="grid-item">1</div>
-    <div style="color: yellow" class="grid-item">2</div>
-    <div style="color: yellow" class="grid-item">2</div>
-    <div style="color: lightblue" class="grid-item">3</div>
-    <div style="color: lightblue" class="grid-item">3</div>
-    <div style="color: silver" class="grid-item">4</div>
-    <div style="color: silver" class="grid-item">4</div>
-    <div style="color:cadetblue" class="grid-item">5</div>
-    <div style="color:cadetblue" class="grid-item">5</div>
-    <div style="color:darkorchid" class="grid-item">6</div>
-    <div style="color:darkorchid" class="grid-item">6</div>
-    <div style="color:darkgreen" class="grid-item">7</div>
-    <div style="color:darkgreen" class="grid-item">7</div>
-    <div style="color:coral" class="grid-item">8</div>
-    <div style="color:coral" class="grid-item">8</div>
-    <div style="color:dodgerblue" class="grid-item">9</div>
-    <div style="color:dodgerblue" class="grid-item">9</div>
-    <div style="color:turquoise" class="grid-item">10</div>
-    <div style="color:turquoise" class="grid-item">10</div>
-
-    <div style="color: darkred" class="grid-item">1</div>
-    <div style="color: darkred" class="grid-item">1</div>
-    <div style="color: yellow" class="grid-item">2</div>
-    <div style="color: yellow" class="grid-item">2</div>
-    <div style="color: lightblue" class="grid-item">3</div>
-    <div style="color: lightblue" class="grid-item">3</div>
-    <div style="color: silver" class="grid-item">4</div>
-    <div style="color: silver" class="grid-item">4</div>
-    <div style="color:cadetblue" class="grid-item">5</div>
-    <div style="color:cadetblue" class="grid-item">5</div>
-    <div style="color:darkorchid" class="grid-item">6</div>
-    <div style="color:darkorchid" class="grid-item">6</div>
-    <div style="color:darkgreen" class="grid-item">7</div>
-    <div style="color:darkgreen" class="grid-item">7</div>
-    <div style="color:coral" class="grid-item">8</div>
-    <div style="color:coral" class="grid-item">8</div>
-    <div style="color:dodgerblue" class="grid-item">9</div>
-    <div style="color:dodgerblue" class="grid-item">9</div>
-    <div style="color:turquoise" class="grid-item">10</div>
-    <div style="color:turquoise" class="grid-item">10</div>
-
-    <div style="color: darkred" class="grid-item">1</div>
-    <div style="color: darkred" class="grid-item">1</div>
-    <div style="color: yellow" class="grid-item">2</div>
-    <div style="color: yellow" class="grid-item">2</div>
-    <div style="color: lightblue" class="grid-item">3</div>
-    <div style="color: lightblue" class="grid-item">3</div>
-    <div style="color: silver" class="grid-item">4</div>
-    <div style="color: silver" class="grid-item">4</div>
-    <div style="color:cadetblue" class="grid-item">5</div>
-    <div style="color:cadetblue" class="grid-item">5</div>
-    <div style="color:darkorchid" class="grid-item">6</div>
-    <div style="color:darkorchid" class="grid-item">6</div>
-    <div style="color:darkgreen" class="grid-item">7</div>
-    <div style="color:darkgreen" class="grid-item">7</div>
-    <div style="color:coral" class="grid-item">8</div>
-    <div style="color:coral" class="grid-item">8</div>
-    <div style="color:dodgerblue" class="grid-item">9</div>
-    <div style="color:dodgerblue" class="grid-item">9</div>
-    <div style="color:turquoise" class="grid-item">10</div>
-    <div style="color:turquoise" class="grid-item">10</div>
-
+  <div class="grid-container" onClick="pausePlay()" title="Click to pause/play">
   </div>
   <h1 class="character"></h1>
 </body>
@@ -179,10 +13,30 @@
 </html>
 
 <script>
+  (function () {
+    /** This is the total number of HTML elements with the class '.grid-item' **/
+    window.totalDivs = 180
+
+    const randomColor = () => {
+      color = 'rgb(' + Math.round(Math.random() * 255) + ',' + Math.round(Math.random() * 255) + ',' + Math.round(
+        Math.random() * 255) + ')';
+      return color;
+    }
+
+    for (let i = 0; i < totalDivs; i++) {
+      let div = document.createElement('div')
+      div.className = 'grid-item'
+      div.innerHTML = i
+      div.style.color = randomColor()
+      document.querySelector('.grid-container').appendChild(div)
+    }
+  })();
+
+
+  /** This is the total number of HTML elements with the class '.grid-item' **/
+  const totalElements = totalDivs - 1
   const body = document.querySelector('body')
   const characters = document.querySelectorAll('.grid-item');
-  /** This is the total number of HTML elements with the class '.grid-item' **/
-  const totalElements = 159;
   let stopped = false
 
   const pausePlay = () => {
@@ -227,7 +81,7 @@
   }
 
   .mask {
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.8);
     z-index: 2;
     position: absolute;
     height: 100%;
@@ -235,7 +89,7 @@
   }
 
   body {
-    background: black;
+    background: rgba(0, 0, 0, 0.9);
     color: white;
     cursor: pointer;
   }
