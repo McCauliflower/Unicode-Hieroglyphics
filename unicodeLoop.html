@@ -179,6 +179,7 @@
 </html>
 
 <script>
+  const body = document.querySelector('body')
   const characters = document.querySelectorAll('.grid-item');
   /** This is the total number of HTML elements with the class '.grid-item' **/
   const totalElements = 159;
@@ -187,8 +188,12 @@
   const pausePlay = () => {
     stopped = !stopped
     if (!stopped) {
+      body.style.setProperty('--textSize', '60px')
+      body.classList.remove('mask')
       return start()
     } else {
+      body.style.setProperty('--textSize', '40px')
+      body.classList.add('mask')
       window.clearInterval(timer)
     }
   }
@@ -217,6 +222,18 @@
 </script>
 
 <style>
+  :root {
+    --textSize: 60px;
+  }
+
+  .mask {
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 2;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+
   body {
     background: black;
     color: white;
@@ -229,7 +246,7 @@
   }
 
   .grid-item {
-    font-size: 80px;
+    font-size: var(--textSize);
     display: inline;
   }
 </style>
